@@ -4,7 +4,8 @@
 #define R 20902000
 #define G 3.44e-8
 #define masaTierra 4.092e23
-void calcular(){
+
+int main(int argc, char const *argv[]){
     double h;
     double g;
     double porcentaje;
@@ -21,9 +22,5 @@ void calcular(){
     printf("Altura aproximada en pies: %.0f\n", h);
     printf("Altura aproximada en kilometros: %.2f\n", km);
     printf("Altura aproximada en metros: %.2f\n", m);
-}
-
-int main(int argc, char const *argv[]){
-    calcular();
     return 0;
 }
