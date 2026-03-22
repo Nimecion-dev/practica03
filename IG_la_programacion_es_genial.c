@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void imprimirMensaje(){
+int main(int argc, char *argv[])
+{
 	printf("******************************************************************\n");
 	printf("\t\t\"   IIIIIIIIIIIIIII  GGGGGGG    !!\n");
 	printf("\t\t\"\t  III\t    G       G   !!\n");
@@ -14,10 +15,5 @@ void imprimirMensaje(){
 	printf("\t\t\"   IIIIIIIIIIIIIII  GGGGGGG    !!\n");
 	printf("******************************************************************\n\n");
 	printf("La programacion es algo genial !!!\n");
-}
-
-int main(int argc, char *argv[])
-{
-	imprimirMensaje();
 	return 0;
 }
