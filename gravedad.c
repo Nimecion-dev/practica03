@@ -5,6 +5,7 @@
 #define G 3.44e-8
 #define masaTierra 4.092e23
 
+
 int main(int argc, char const *argv[]){
     double h;
     double g;
